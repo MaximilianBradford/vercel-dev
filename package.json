@@ -1,0 +1,19 @@
+{
+  "name": "vercel-dev",
+  "version": "1.0.0",
+  "description": "My first Node App",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "Max",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "radash": "^11.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
